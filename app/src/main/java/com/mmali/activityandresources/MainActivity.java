@@ -19,9 +19,13 @@ public class MainActivity extends AppCompatActivity {
         //onCreate()-onStart()-onResume()-onPause-onStop()-onDestroy()
 
         secondCommitDone();
+        thirdCommitDone();
     }
 
     public void secondCommitDone(){
         Toast.makeText(MainActivity.this, "second commit done", Toast.LENGTH_SHORT).show();
+    }
+    public void thirdCommitDone(){
+        Toast.makeText(MainActivity.this, "third commit is done", Toast.LENGTH_SHORT).show();
     }
 }
