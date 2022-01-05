@@ -3,6 +3,7 @@ package com.mmali.activityandresources;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,5 +17,11 @@ public class MainActivity extends AppCompatActivity {
 
         //lifecycle methods of activity
         //onCreate()-onStart()-onResume()-onPause-onStop()-onDestroy()
+
+        secondCommitDone();
+    }
+
+    public void secondCommitDone(){
+        Toast.makeText(MainActivity.this, "second commit done", Toast.LENGTH_SHORT).show();
     }
 }
